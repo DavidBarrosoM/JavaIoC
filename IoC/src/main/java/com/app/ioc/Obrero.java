@@ -5,6 +5,7 @@ public class Obrero {
 	public void setHerramienta(Herramientas herramienta){
 		this.herramienta = herramienta;
 	}
+	//Creamos el método que llame a la dependencia
 	public void construir() {
 		System.out.println("Construyendo");
 		herramienta.usar();
