@@ -11,11 +11,11 @@ public class Main {
 		
 		//Inyectamos una dependencia
 		obrero.setHerramienta(destornillador);
-		obrero.construir();
+		obrero.construir();//Salida: Construyendo Usando Destornillador
 		
 		//Cambiamos la dependencia
 		obrero.setHerramienta(martillo);
-		obrero.construir();
+		obrero.construir();//Salida: Construyendo Usando Martillo
 		
 	}
 }
